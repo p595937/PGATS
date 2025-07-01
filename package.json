@@ -1,7 +1,7 @@
 {
   "name": "trabalho-final",
   "version": "1.0.0",
-  "description": "",
+  "description": "Trabalho final da disciplina PGATS",
   "type": "module",
   "main": "trabalho.js",
   "scripts": {
@@ -17,5 +17,3 @@
     "mocha": "^11.7.1"
   }
 }
-
-
