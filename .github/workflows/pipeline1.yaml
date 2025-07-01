@@ -1,0 +1,29 @@
+name: 'Trabalho Final da disciplina Integração Contínua para Automação de Testes'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  executandoTestes:
+    runs-on: ubuntu-latest
+
+    steps:
+      
+uses: actions/checkout@v4
+
+      
+uses: actions/setup-node@v4
+      with:
+        node-version: latest
+
+      
+name: Instalando Yarn
+      run: npm install -g yarn
+
+      
+name: Instalando dependências
+      run: yarn
+
+      
+name: Executando testes do trabalho final da Disciplina de Programação Para Automação de Testes
+      run: yarn test

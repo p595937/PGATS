@@ -1,17 +1,20 @@
 {
-  "name": "pgats-programacao-js",
+  "name": "trabalho-final",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
+  "main": "trabalho.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./testes/*.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0"
+  },
   "devDependencies": {
-    "mocha": "^11.2.2"
+    "mocha": "^11.7.1"
   }
 }
 
