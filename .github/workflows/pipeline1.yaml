@@ -1,4 +1,4 @@
-name: 'PipeN1'
+name: 'Pipeline N1 - PGATS'
 
 on:
   workflow_dispatch:
@@ -25,5 +25,5 @@ name: Instalando dependências
       run: yarn
 
       
-name: Executa os testes da N1
+name: executa pipeline N1
       run: yarn test
