@@ -25,5 +25,5 @@ name: Instalando dependências
       run: yarn
 
       
-name: Executa os testes da n1
-      run: yarn run test-trabalho
+name: Executa os testes da N1
+      run: yarn test
