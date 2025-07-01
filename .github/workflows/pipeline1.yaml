@@ -1,4 +1,4 @@
-name: 'Trabalho Final da disciplina Integração Contínua para Automação de Testes'
+name: 'PipeN1'
 
 on:
   workflow_dispatch:
@@ -25,5 +25,5 @@ name: Instalando dependências
       run: yarn
 
       
-name: Executando testes do trabalho final da Disciplina de Programação Para Automação de Testes
-      run: yarn test
+name: Executa os testes da n1
+      run: yarn run test-trabalho
